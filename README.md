@@ -86,8 +86,8 @@ Axios
 ⚙️ Installation
 1️⃣ Clone Repository
 ```
-git clone https://github.com/yourusername/truthlens-ai.git
-cd truthlens-ai
+git clone https://github.com/Ananya9999999/TruthLens-AI.git
+cd TruthLens-AI
 ```
 2️⃣ Backend Setup
 ```
