@@ -41,15 +41,11 @@ Uses a fine-tuned BERT-based transformer model to classify the content as real o
 2️⃣ Manipulation Detection
 
 🔹Performs sentence-level sentiment analysis to detect:
-🔹Performs sentence-level sentiment analysis to detect:
 
-🔹Highly emotional wording
 🔹Highly emotional wording
 
 🔹Sensational tone
-🔹Sensational tone
 
-🔹Negative bias patterns
 🔹Negative bias patterns
 
 3️⃣ Score Aggregation
@@ -77,26 +73,19 @@ Authenticity = 1 − (0.7 × Fake Probability + 0.3 × Manipulation Score)
 Backend
 
 🔹FastAPI
-🔹FastAPI
 
-🔹HuggingFace Transformers
 🔹HuggingFace Transformers
 
 🔹PyTorch
-🔹PyTorch
 
 🔹NLTK
-🔹NLTK
 
-🔹NumPy
 🔹NumPy
 
 Frontend
 
 🔹React.js
-🔹React.js
 
-🔹Axios
 🔹Axios
 
 ⚙️ Installation
@@ -133,15 +122,15 @@ http://localhost:3000
 
 🎯 Use Cases
 
-🔹🔹Social media misinformation detection
+🔹Social media misinformation detection
 
-🔹🔹News credibility scoring
+🔹News credibility scoring
 
-🔹🔹Educational awareness tools
+🔹Educational awareness tools
 
-🔹🔹Media literacy platforms
+🔹Media literacy platforms
 
-🔹🔹Browser extension integration (future scope)
+🔹Browser extension integration (future scope)
 
 🔮 Future Enhancements
 
