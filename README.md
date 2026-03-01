@@ -1,4 +1,5 @@
 🧠 TruthLens AI
+
 AI-Powered Fake News & Manipulation Detector
 
 TruthLens AI is a multi-layer AI system that analyzes news content and evaluates its authenticity using transformer-based classification, emotional manipulation detection, and explainable scoring.
@@ -30,19 +31,20 @@ User Input → Backend API →
 → Authenticity Score + Flagged Sentences
 ```
 🧠 How It Works
+
 1️⃣ Fake News Detection
 
 Uses a fine-tuned BERT-based transformer model to classify the content as real or fake and generate probability scores.
 
 2️⃣ Manipulation Detection
 
-Performs sentence-level sentiment analysis to detect:
+🔹Performs sentence-level sentiment analysis to detect:
 
-Highly emotional wording
+🔹Highly emotional wording
 
-Sensational tone
+🔹Sensational tone
 
-Negative bias patterns
+🔹Negative bias patterns
 
 3️⃣ Score Aggregation
 
@@ -67,27 +69,27 @@ Authenticity = 1 − (0.7 × Fake Probability + 0.3 × Manipulation Score)
 🛠 Tech Stack
 Backend
 
-FastAPI
+🔹FastAPI
 
-HuggingFace Transformers
+🔹HuggingFace Transformers
 
-PyTorch
+🔹PyTorch
 
-NLTK
+🔹NLTK
 
-NumPy
+🔹NumPy
 
 Frontend
 
-React.js
+🔹React.js
 
-Axios
+🔹Axios
 
 ⚙️ Installation
 1️⃣ Clone Repository
 ```
-git clone https://github.com/yourusername/truthlens-ai.git
-cd truthlens-ai
+git clone https://github.com/yourusername/TruthLens-AI.git
+cd TruthLens-AI
 ```
 2️⃣ Backend Setup
 ```
@@ -116,15 +118,15 @@ http://localhost:3000
 
 🎯 Use Cases
 
-Social media misinformation detection
+🔹Social media misinformation detection
 
-News credibility scoring
+🔹News credibility scoring
 
-Educational awareness tools
+🔹Educational awareness tools
 
-Media literacy platforms
+🔹Media literacy platforms
 
-Browser extension integration (future scope)
+🔹Browser extension integration (future scope)
 
 🔮 Future Enhancements
 
