@@ -92,11 +92,13 @@ Authenticity = 1 − (0.7 × Fake Probability + 0.3 × Manipulation Score)
 <h2>⚙️ Installation</h2>
 
 <h3>1️⃣ Clone Repository</h3>
+
 ```
 git clone https://github.com/yourusername/TruthLens-AI.git
 cd TruthLens-AI
 ```
 <h3>2️⃣ Backend Setup</h3>
+
 ```
 cd backend
 pip install -r requirements.txt
@@ -109,6 +111,7 @@ Backend runs on:
 http://127.0.0.1:8000
 ```
 <h3>3️⃣ Frontend Setup</h3>
+
 ```
 cd frontend
 npm install
