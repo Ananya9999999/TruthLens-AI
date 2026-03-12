@@ -1,4 +1,4 @@
-🧠 TruthLens AI
+<h1>🧠 TruthLens AI</h1>
 
 
 AI-Powered Fake News & Manipulation Detector
@@ -7,7 +7,7 @@ TruthLens AI is a multi-layer AI system that analyzes news content and evaluates
 
 Built for hackathon demonstration with real NLP models and clean full-stack architecture.
 
-🚀 Features
+<h2>🚀 Features</h2>
 
 ✅ Transformer-based Fake News Classification (BERT)
 
@@ -23,7 +23,8 @@ Built for hackathon demonstration with real NLP models and clean full-stack arch
 
 ✅ Explainable Output
 
-🏗 Architecture Overview
+<h2>🏗 Architecture Overview</h2>
+
 ```
 User Input → Backend API →
 1️⃣ Fake News Classifier
@@ -31,14 +32,14 @@ User Input → Backend API →
 3️⃣ Score Aggregation Engine
 → Authenticity Score + Flagged Sentences
 ```
-🧠 How It Works
+<h2>🧠 How It Works</h2>
 
 
-1️⃣ Fake News Detection
+<h3>1️⃣ Fake News Detection</h3>
 
 Uses a fine-tuned BERT-based transformer model to classify the content as real or fake and generate probability scores.
 
-2️⃣ Manipulation Detection
+<h3>2️⃣ Manipulation Detection</h3>
 
 🔹Performs sentence-level sentiment analysis to detect:
 
@@ -48,13 +49,13 @@ Uses a fine-tuned BERT-based transformer model to classify the content as real o
 
 🔹Negative bias patterns
 
-3️⃣ Score Aggregation
+<h3>3️⃣ Score Aggregation</h3>
 
 Final Authenticity Score is computed as:
 
 Authenticity = 1 − (0.7 × Fake Probability + 0.3 × Manipulation Score)
 
-📊 Example Output
+<h2>📊 Example Output</h2>
 
 ```
 {
@@ -68,9 +69,9 @@ Authenticity = 1 − (0.7 × Fake Probability + 0.3 × Manipulation Score)
 }
 ```
 
-🛠 Tech Stack
+<h2>🛠 Tech Stack</h2>
 
-Backend
+<h3>Backend</h3>
 
 🔹FastAPI
 
@@ -82,20 +83,20 @@ Backend
 
 🔹NumPy
 
-Frontend
+<h3>Frontend</h3>
 
 🔹React.js
 
 🔹Axios
 
-⚙️ Installation
+<h2>⚙️ Installation</h2>
 
-1️⃣ Clone Repository
+<h3>1️⃣ Clone Repository</h3>
 ```
 git clone https://github.com/yourusername/TruthLens-AI.git
 cd TruthLens-AI
 ```
-2️⃣ Backend Setup
+<h3>2️⃣ Backend Setup</h3>
 ```
 cd backend
 pip install -r requirements.txt
@@ -107,7 +108,7 @@ Backend runs on:
 ```
 http://127.0.0.1:8000
 ```
-3️⃣ Frontend Setup
+<h3>3️⃣ Frontend Setup</h3>
 ```
 cd frontend
 npm install
@@ -120,7 +121,7 @@ Frontend runs on:
 http://localhost:3000
 ```
 
-🎯 Use Cases
+<h2>🎯 Use Cases</h2>
 
 🔹Social media misinformation detection
 
@@ -132,7 +133,7 @@ http://localhost:3000
 
 🔹Browser extension integration (future scope)
 
-🔮 Future Enhancements
+<h2>🔮 Future Enhancements</h2>
 
 🔹 Live URL scraping
 
